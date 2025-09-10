@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecomarket — platformă ecommerce (HTML only)</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/img/hero-placeholder.svg" as="image">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#continut">Sari la conținut</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="Siglă Ecomarket" width="120" height="36">
+      </div>
+      <nav aria-label="Navigare principală">
+        <ul class="nav">
+          <li><a href="#" class="btn">Acasă</a></li>
+          <li><a href="#produse" class="btn">Produse</a></li>
+          <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="continut">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Magazinul tău simplu, în HTML</h1>
+          <p>Acesta este un proiect de laborator cu <strong>HTML + CSS + (opțional) JS</strong>.
+             Include un titlu, bară de navigare, o imagine și un text, plus footer.</p>
+          <a href="#produse" class="cta">Vezi produsele</a>
+        </div>
+        <div class="hero-media">
+          <img src="assets/img/hero-placeholder.svg" alt="Colaj cu produse și card de produs" width="600" height="300" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section id="produse" class="products">
+      <div class="container">
+        <h2>Produse populare</h2>
+        <div class="grid">
+          <article class="card">
+            <img src="assets/img/hero-placeholder.svg" alt="Produs 1" width="400" height="200" loading="lazy">
+            <div class="card-body">
+              <h3>Produs 1</h3>
+              <p>Descriere scurtă a produsului.</p>
+              <button class="btn-outline" type="button">Adaugă în coș</button>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/img/hero-placeholder.svg" alt="Produs 2" width="400" height="200" loading="lazy">
+            <div class="card-body">
+              <h3>Produs 2</h3>
+              <p>Descriere scurtă a produsului.</p>
+              <button class="btn-outline" type="button">Adaugă în coș</button>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/img/hero-placeholder.svg" alt="Produs 3" width="400" height="200" loading="lazy">
+            <div class="card-body">
+              <h3>Produs 3</h3>
+              <p>Descriere scurtă a produsului.</p>
+              <button class="btn-outline" type="button">Adaugă în coș</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Scrie-ne la <a href="mailto:contact@ecomarket.example">contact@ecomarket.example</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="an"></span> Ecomarket. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

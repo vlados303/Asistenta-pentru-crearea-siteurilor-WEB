@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Imagine erou</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#e0e0ff"/>
+      <stop offset="1" stop-color="#e0ffe0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#g)" />
+  <rect x="40" y="80" width="520" height="240" fill="white" stroke="#999" rx="16"/>
+  <text x="60" y="150" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#222">Bun venit la Ecomarket!</text>
+  <text x="60" y="190" font-size="18" font-family="Arial, Helvetica, sans-serif" fill="#444">Platformă ecommerce (HTML only) pentru laboratorul 1.</text>
+  <text x="60" y="220" font-size="16" font-family="Arial, Helvetica, sans-serif" fill="#555">Navighează, vezi produse și contactează-ne.</text>
+  <g transform="translate(700,70)">
+    <rect x="0" y="0" width="440" height="260" fill="#fff" stroke="#999" rx="16"/>
+    <circle cx="100" cy="130" r="60" fill="#ddd"/>
+    <rect x="190" y="60" width="220" height="20" fill="#eee"/>
+    <rect x="190" y="100" width="220" height="20" fill="#eee"/>
+    <rect x="190" y="140" width="140" height="20" fill="#eee"/>
+    <rect x="190" y="180" width="180" height="20" fill="#eee"/>
+  </g>
+</svg>
