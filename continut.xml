@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+    <titlu>Siteul Meu</titlu>
+    
+    <meniu>
+        <element>Acasă</element>
+        <element>Despre</element>
+        <element>Contact</element>
+    </meniu>
+    
+    <sectiuni>
+        <sectiune>
+            <titlu>Bine ai venit!</titlu>
+            <paragraf>Acesta este un paragraf introductiv.</paragraf>
+        </sectiune>
+        <sectiune>
+            <titlu>Despre noi</titlu>
+            <paragraf>Informații despre echipă și proiect.</paragraf>
+        </sectiune>
+    </sectiuni>
+</website>
